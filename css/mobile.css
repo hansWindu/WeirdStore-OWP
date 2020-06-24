@@ -1,0 +1,27 @@
+.header {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 33.3%);
+  grid-template-rows: auto;
+}
+.header__left {
+  font-size: 0.9rem;
+  margin: auto;
+  padding: 0;
+  text-align: center;
+}
+.header__center {
+  font-size: 1rem;
+  margin: auto;
+  padding: 0;
+  text-align: center;
+}
+.header__right {
+  font-size: 1rem;
+  padding: 0;
+  text-align: center;
+}
+.header .cart__img {
+  height: 2rem;
+  width: 2rem;
+}
