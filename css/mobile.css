@@ -3,6 +3,7 @@
   display: grid;
   grid-template-columns: repeat(3, 33.3%);
   grid-template-rows: auto;
+  border-bottom: 1px solid black;
 }
 .header__left {
   font-size: 0.9rem;
@@ -24,4 +25,24 @@
 .header .cart__img {
   height: 2rem;
   width: 2rem;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0;
+  border-bottom: 1px black solid;
+}
+.nav__marvel {
+  margin: 1rem;
+  text-align: center;
+}
+.nav__starwars {
+  margin: 1rem;
+  text-align: center;
+}
+.nav__otros {
+  margin: 1rem;
+  text-align: center;
 }
