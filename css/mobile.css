@@ -57,8 +57,25 @@
 }
 .store .marvel .article {
   width: 100%;
+  border-bottom: 1px solid black;
+}
+.store .marvel .article__logo {
+  text-align: center;
+  font-size: 1.5rem;
 }
 .store .marvel .article__img {
   width: 100%;
   height: 20rem;
+}
+.store .marvel .article__text {
+  text-align: center;
+  font-size: 1.2rem;
+}
+.store .marvel .article__price {
+  text-align: center;
+  font-weight: 900;
+}
+.store .marvel .article__boton {
+  text-align: center;
+  margin: 1rem;
 }
