@@ -11,6 +11,8 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
     <!-- Title -->
     <title>Weird Store</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
 </head>
 <body>
     <!-- Header Section -->
@@ -18,7 +20,7 @@
         <p class="header__left">
             0-800-STORE-0
         </p>
-        <p class="header__center">
+        <p class="header__center" id="inicio">
             Weird Store
         </p>
         <div class="header__right">
@@ -48,6 +50,11 @@
     </section>
     <!-- Store Section -->
     <section class="store">
+        <div  class="arriba">
+            <a href="#inicio">
+                <i class="fas fa-arrow-up arriba__icon"></i>
+            </a>
+        </div>
         <!-- Marvel Section -->
         <div class="marvel" id="Marvel">
             <h2 class="marvel__logo">
@@ -102,7 +109,7 @@
             </div>  
         </div>
         <!--Star Wars-->
-        <div class="starwars" id="starwars">
+        <div class="starwars" id="StarWars">
             <h2 class="starwars__logo">
                 Star Wars
             </h2>
@@ -136,77 +143,77 @@
                 </article>
             </div>  
         </div>
-                <!--Otra cosa-->
-                <h2 class="body__text">
-                    <div id="Otros">
-                    Cualquier cosa
+        <!--Otra cosa-->
+        <div class="otros" id="Otros">
+            <h2 class="otros__logo">
+                Otros
+            </h2>
+            <div class="otros__articles">
+                <article class="article">
+                    <p class="article__logo">Piedra</p>
+                    <img src="img/piedra.png" alt="cap" class="article__img">
+                    <p class="article__text">La gente tiende a confundirla con la piedra filosofal</p>
+                    <p class="article__price">12.000.000,00$</p>
+                    <div class="article__boton">
+                        <button class="article__boton">Agregar al carrito</button>
                     </div>
-                </h2>
-                <div class="barra__body"></div>
-                <div class="body__Otros">
-                    <article class="body__piedra">
-                        <img src="img/piedra.png" alt="piedra" class="body__piedra__image">
-                        <p class="body__p1">Piedra</p>
-                        <p class="body__p2">Unica en su especie</p>
-                        <p class="body__p3">600$</p>
-                    </article>
-                    <article class="body__perro__negro">
-                        <img src="img/perronegro.png" alt="perronegro" class="body__perronegro__image">
-                        <p class="body__p1">Perro negro</p>
-                        <p class="body__p2">A veces se comporta raro</p>
-                        <p class="body__p3">500$</p>
-                    </article>
-                    <article class="body__perro">
-                        <img src="img/perro.png" alt="perro" class="body__perro__image">
-                        <p class="body__p1">Perro</p>
-                        <p class="body__p2">Muy obediente</p>
-                        <p class="body__p3">700$</p>
-                    </article>
-                    <article class="body__mustang">
-                        <img src="img/mustang.png" alt="mustang" class="body__mustang__image">
-                        <p class="body__p1">Mustang</p>
-                        <p class="body__p2">Prometo que en persona se ve mucho mejor</p>
-                        <p class="body__p3">600$</p>
-                    </article>
-                    <article class="body__lapiz">
-                        <img src="img/lapiz.png" alt="lapiz" class="body__lapiz__image">
-                        <p class="body__p1">Lapiz</p>
-                        <p class="body__p2">Replica de Franco</p>
-                        <p class="body__p3">500$</p>
-                    </article>
-                    <article class="body__jeep">
-                        <img src="img/jeep.png" alt="jeep" class="body__jeep__image">
-                        <p class="body__p1">Jeep</p>
-                        <p class="body__p2">Muy buena para familias</p>
-                        <p class="body__p3">700$</p>
-                    </article>    
-                    <article class="body__almohada">
-                        <img src="img/almohada.png" alt="almohada" class="body__almohada__image">
-                        <p class="body__p1">Almohada</p>
-                        <p class="body__p2">Franco solia dormir con ella</p>
-                        <p class="body__p3">700$</p>
-                       
-                    </article>  
-                    
-                    
-
-                </div>
-
-                <div class="body__arriba">
-                    <a href="#arriba">
-                    <h2>Ir arriba</h2>
-                    </a>
-                </div>
-
-            </section>
-            <!--Fin Otra cosa-->
-        <div class="barra"></div>   
-
-            <section class="informacion"></section>
+                </article>
+                <article class="article">
+                    <p class="article__logo">Perro Negro</p>
+                    <img src="img/perronegro.png" alt="cap" class="article__img">
+                    <p class="article__text">A veces tiene un comportamiento extraño, ¡Hey! ¿Alguien ha visto las llaves de mi auto?</p>
+                    <p class="article__price">11.000.000,00$</p>
+                    <div class="article__boton">
+                        <button class="article__boton">Agregar al carrito</button>
+                    </div>
+                </article>
+                <article class="article">
+                    <p class="article__logo">Perro</p>
+                    <img src="img/perro.png" alt="cap" class="article__img">
+                    <p class="article__text">Muy obediente</p>
+                    <p class="article__price">100.000.000.000,00$</p>
+                    <div class="article__boton">
+                        <button class="article__boton">Agregar al carrito</button>
+                    </div>
+                </article>
+                <article class="article">
+                    <p class="article__logo">Mustang</p>
+                    <img src="img/mustang.png" alt="cap" class="article__img">
+                    <p class="article__text">Ideal para ir rapido</p>
+                    <p class="article__price">100.000.000,00$</p>
+                    <div class="article__boton">
+                        <button class="article__boton">Agregar al carrito</button>
+                    </div>
+                </article>
+                <article class="article">
+                    <p class="article__logo">Lapiz</p>
+                    <img src="img/lapiz.png" alt="cap" class="article__img">
+                    <p class="article__text">Tiene algo especial</p>
+                    <p class="article__price">200$</p>
+                    <div class="article__boton">
+                        <button class="article__boton">Agregar al carrito</button>
+                    </div>
+                </article>
+                <article class="article">
+                    <p class="article__logo">Jeep</p>
+                    <img src="img/jeep.png" alt="cap" class="article__img">
+                    <p class="article__text">Ideal para paseos en familia</p>
+                    <p class="article__price">200$</p>
+                    <div class="article__boton">
+                        <button class="article__boton">Agregar al carrito</button>
+                    </div>
+                </article>
+                <article class="article">
+                    <p class="article__logo">Almohada</p>
+                    <img src="img/almohada.png" alt="cap" class="article__img">
+                    <p class="article__text">Muy comoda</p>
+                    <p class="article__price">200$</p>
+                    <div class="article__boton">
+                        <button class="article__boton">Agregar al carrito</button>
+                    </div>
+                </article>
+            </div>  
         </div>
-    
-
-
-    </main>
+    </section>
 </body>
 </html>
