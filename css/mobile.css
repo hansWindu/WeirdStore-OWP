@@ -46,3 +46,19 @@
   margin: 1rem;
   text-align: center;
 }
+
+.store {
+  width: 100%;
+}
+.store .marvel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.store .marvel .article {
+  width: 100%;
+}
+.store .marvel .article__img {
+  width: 100%;
+  height: 20rem;
+}
