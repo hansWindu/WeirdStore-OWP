@@ -50,32 +50,39 @@
 .store {
   width: 100%;
 }
-.store .marvel {
+.store .marvel, .store .starwars {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.store .marvel .article {
+.store .marvel__logo, .store .starwars__logo {
+  font-size: 2rem;
+  text-align: center;
+  width: 50%;
+  border-bottom: 1px solid black;
+  margin: 3rem auto;
+}
+.store .marvel .article, .store .starwars .article {
   width: 100%;
   border-bottom: 1px solid black;
 }
-.store .marvel .article__logo {
+.store .marvel .article__logo, .store .starwars .article__logo {
   text-align: center;
   font-size: 1.5rem;
 }
-.store .marvel .article__img {
+.store .marvel .article__img, .store .starwars .article__img {
   width: 100%;
   height: 20rem;
 }
-.store .marvel .article__text {
+.store .marvel .article__text, .store .starwars .article__text {
   text-align: center;
   font-size: 1.2rem;
 }
-.store .marvel .article__price {
+.store .marvel .article__price, .store .starwars .article__price {
   text-align: center;
   font-weight: 900;
 }
-.store .marvel .article__boton {
+.store .marvel .article__boton, .store .starwars .article__boton {
   text-align: center;
   margin: 1rem;
 }
