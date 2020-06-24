@@ -1,0 +1,14 @@
+:root {
+    --color-green-midnight: #114B5F;
+    --color-queen-blue: #456990;
+    --color-nyanza: #E4FDE1;
+    --color-rose-fiery: #F45B69;
+    --color-wine: #6B2737;
+    --text-1: 'Raleway', sans-serif;    
+}
+
+main {
+    font-family: var(--text-1);
+}
+
+

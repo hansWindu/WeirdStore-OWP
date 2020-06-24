@@ -1,0 +1,174 @@
+
+.barra {
+    border: solid 1px;
+    width: 100%;
+    margin: 0em auto;
+}
+
+
+
+/* section titulo */
+
+
+
+.title {
+    width: auto;
+    display: flex;
+    padding: 1rem 2rem;
+    
+}
+
+.title__one {
+    margin: 0em;
+    width: 32%;
+   
+}
+
+.title__two {
+    margin: 0em;
+    width: 36%;
+    text-align: center;
+    
+}
+
+.title__three {
+    margin: 0em;
+    width: 32%;
+    text-align: end;
+}
+
+.title__imagen {
+    width: 40px;
+    height: 40px;
+}
+
+
+
+/* fin titulo */
+
+/* section nav */
+
+.nav {
+    padding: .5em;
+}
+
+.nav__articulos {
+    padding: 1em;
+    width: 80%;
+    height: 5em;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.nav__marvel__icono {
+    margin: 0 2em;
+}
+
+.nav__starwars__icono {
+    margin: 0 2em;
+}
+
+.nav__otros__icono {
+    margin: 0 2em;
+}
+
+.nav__p {
+    padding: 0em;
+    margin: 0em;
+    text-align: center;
+}
+
+/* fin nav */
+
+/* section body */
+
+.body {
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+.body__text {
+    margin-bottom: .2em;
+    text-align: left;    
+}
+
+.barra__body {
+    border: 1px solid;
+    width: 2em;
+    margin-left: .2em;
+}
+
+/*Marvel*/
+
+.body__marvel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.body__cap {
+    width: 30%;
+}
+
+
+.body__thor {
+    width: 30%;
+}
+
+
+.body__thanos {
+    width: 30%;
+}
+
+.body__iron {
+    width: 30%;
+}
+
+.body__hawk {
+    width: 30%;
+}
+
+.body__p1 {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 0em;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.body__p2 {
+    text-align: center;
+    font-size: .8em;
+    margin-top: .2em;
+    margin-bottom: .2em;
+}
+
+.body__p3 {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 0em;
+}
+
+/* fin marvel */
+
+/* star wars */
+
+.body__starwars {
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 1em;
+}
+
+/* fin star wars */
+
+/* otros */
+
+.body__Otros {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
